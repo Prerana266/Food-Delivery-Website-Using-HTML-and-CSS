@@ -1,0 +1,14 @@
+
+#house .h-primary {
+    font-size: 15px
+}
+#house p {
+    font-size: 5px;
+}
+#services .box img {
+    width: 50px;
+}
+.h-tertiary {
+    font-size: 15px;
+    padding: 6px;
+}

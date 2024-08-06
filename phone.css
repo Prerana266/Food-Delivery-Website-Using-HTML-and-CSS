@@ -1,0 +1,46 @@
+body {
+    overflow-x: hidden;
+}
+#navbar ul li {
+    font-size: 13px;
+}
+
+
+#services {
+    overflow: hidden;
+    flex-direction: column;
+}
+#clients {
+   flex-wrap: wrap;
+}
+#clients img {
+    width: 80px;
+    padding: 6px;
+    height: auto;
+}
+#navbar {
+    flex-direction: column;
+}
+#house {
+    height: 488px;
+    padding: 0px 7px;
+}
+#house::before {
+    height: 586px;
+}
+#house p{
+    font-size: 20px;
+}
+#house .h-primary {
+    font-size: 45px;
+}
+#services .box {
+    margin: 8px 1px;
+}
+#contact-box form {
+    width: 80%;
+}
+#services-primary .h-secondary {
+    font-size: 40px;
+}
+

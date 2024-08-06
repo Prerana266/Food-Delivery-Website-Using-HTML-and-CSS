@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+
+}
+
+#navbar img {
+    margin: 3px 20px;
+    height: 60px;
+    border-radius: 100px;
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: "Bree Serif", serif;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 3px 7px;
+    text-decoration: none;
+    color: white;
+}
+
+#navbar::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.4;
+    z-index: -1;
+
+}
+
+#navbar ul li a:hover {
+    background-color: rgb(67, 111, 138);
+    opacity: 0.9;
+    border-radius: 15px;
+    color: black;
+    border: 3px solid rgb(67, 111, 138);
+    outline: 5px solid white;
+}
+
+#house {
+    display: flex;
+    padding: 3px 200px;
+    height: 500px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#house::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 80%;
+    width: 100%;
+    background-image: url(assets/images/egyptian\ cruisine.jpeg);
+    opacity: 0.89;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    filter: brightness(121%);
+}
+
+.h-primary {
+    font-size: 3.8rem;
+    padding: 12px;
+    margin-top: 170px;
+
+}
+
+.h-primary span {
+
+    /* color: rgb(39, 17, 17); */
+    color: rgb(40, 255, 108);
+    font-family: "Sevillana", cursive;
+}
+
+.h-secondary {
+    font-size: 3.8rem;
+    padding: 2px;
+    font-family: "Bree Serif", serif;
+    border: 2px solid rgb(208, 150, 153);
+    background-color: rgb(182, 87, 91);
+    color: white;
+}
+
+#house h1 {
+    color: white;
+    text-align: center;
+    /* font-family: "Edu AU VIC WA NT Hand", cursive; */
+    font-family: "Bree Serif", serif;
+
+
+
+}
+
+#house p {
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: "Mukta", sans-serif;
+
+}
+
+.btn {
+    padding: 6px 20px;
+    margin: 25px;
+    background-color: rgb(67, 111, 138);
+    color: white;
+    font-size: 1.5rem;
+    border: 2px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: "Bree Serif", serif;
+    outline: 4px solid white;
+    outline-offset: 2px;
+}
+
+.btn:hover {
+    background-color: rgb(60, 100, 124);
+}
+
+.center {
+    text-align: center;
+    font-family: "Bree Serif", serif;
+}
+
+#services {
+    display: flex;
+    margin: 34px;
+}
+
+#services .box {
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 3px 6px;
+    border-radius: 23px;
+    background-color: rgb(229, 229, 224);
+}
+
+#services .box img {
+    width: 204px;
+    display: block;
+    margin: auto;
+}
+
+#services-primary {
+    position: relative;
+    top: 120px;
+}
+
+.h-tertiary {
+    padding: 20px;
+    font-size: 2.8rem;
+    font-family: "Bree Serif", serif;
+    font-weight: 600;
+    color: rgb(71, 64, 64);
+}
+
+.box p {
+    text-align: center;
+    font-family: "Mukta", sans-serif;
+}
+
+#clients {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.client-item {
+    padding: 34px;
+}
+
+#client-section::before {
+    content: "";
+    position: absolute;
+    background-image: url(assets/images/salad\ image.png);
+    height: 776px;
+    width: 100%;
+    opacity: 0.6;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    z-index: -1;
+}
+
+.h-fourth {
+    font-size: 3.8rem;
+
+}
+
+#contact-us {
+    position: relative;
+}
+
+#contact-us::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    opacity: 3.6;
+    background-image: url(assets/images/contact\ us.jpeg);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+footer {
+    background-color: black;
+    color: white;
+    padding: 9px 20px;
+}
+#contact-box input,
+#contact-box textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+}
+#contact-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 34px;
+}
+#contact-box form {
+    width: 48%;
+}
+#contact-box label {
+    font-size: 1.3rem;
+    font-family: "Bree Serif", serif;
+}
